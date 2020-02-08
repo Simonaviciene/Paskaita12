@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotekosKnygos\BibliotekosKnygos.csproj">
+      <Project>{d3bd6aa4-1a6c-417d-a096-06bae4ae5bd3}</Project>
+      <Name>BibliotekosKnygos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
